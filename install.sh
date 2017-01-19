@@ -5,7 +5,7 @@ export TF_BINARY_URL=https://storage.googleapis.com/tensorflow/linux/cpu/tensorf
 sudo pip install --upgrade $TF_BINARY_URL
 
 #docker run -it gcr.io/tensorflow/tensorflow:latest-devel
-#git clone -b latest --single-branch --depth 1 https://github.com/EN10/chatbot.git
+#git clone --depth 1 https://github.com/EN10/chatbot.git
 
 #training time estimate:
 #3 mins Prepare data
